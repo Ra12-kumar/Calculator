@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    display:flex;
+    justify-content: center;
+    margin-top:10%;
+}
+.calculator{
+    height:300px;
+    width:200px;
+    background-color:beige;
+    border-radius:5px ;
+    
+}
+.input{
+    width:100%;
+    border:none;
+    padding:10px 20px;
+    color:white;
+    background:black;
+    font-size:20px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+button{
+    height:45px;
+    width:45px;
+    margin-top:5px;
+    border-radius:50%;
+    font-size:20px;
+    border:none;
+    cursor:pointer;
+}
+.equal{
+    background-color:orange;
+}
+.operator{
+    color:green;
+}
